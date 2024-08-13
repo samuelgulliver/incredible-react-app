@@ -12,8 +12,9 @@ function Headerr() {
                     <li><a href = '#'>Contact</a></li>
                 </ul>
             </nav>
-            <hr/>
+            {/* Github commit test - button now before hr */}
             <button>Click Me</button>
+            <hr/>   
         </header>
     );
 }
