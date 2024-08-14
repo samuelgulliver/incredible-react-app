@@ -1,9 +1,9 @@
 // Within this function we can write a combination of javascript and html
 
-function Headerr() {
+function Header({title}) {
     return(
         <header>
-            <h1>My Website</h1>
+            <h1>{title}</h1>
             <nav>          
                 <ul>
                     <li><a href='#'>Home</a></li>
@@ -12,12 +12,12 @@ function Headerr() {
                     <li><a href = '#'>Contact</a></li>
                 </ul>
             </nav>
-            {/* Github commit test - button now before hr */}
-            <button>Click Me</button>
-            <hr/>  
-            <button>Github commit test 2</button> 
         </header>
     );
 }
 
-export default Headerr
+// Header.defaultProps = {
+//     title: "Default Website Title"
+//   }
+
+export default Header
