@@ -14,7 +14,8 @@ function Headerr() {
             </nav>
             {/* Github commit test - button now before hr */}
             <button>Click Me</button>
-            <hr/>   
+            <hr/>  
+            <button>Github commit test 2</button> 
         </header>
     );
 }
