@@ -1,2 +1,2 @@
-# my-react-app
+# react-incredibles-cards
  Incredibles Cards
